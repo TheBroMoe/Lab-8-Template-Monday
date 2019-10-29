@@ -80,6 +80,6 @@ public class CityList {
 
 
     public String getCityString() {
-        return null;
+        return String.format("CityList has %d city.", this.countCities());
     }
 }

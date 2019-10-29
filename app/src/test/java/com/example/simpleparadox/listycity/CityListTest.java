@@ -102,5 +102,4 @@ class CityListTest {
 
         assertEquals("CityList has 1 city.", cityString);
     }
-
 }
