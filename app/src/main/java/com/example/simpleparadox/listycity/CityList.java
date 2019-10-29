@@ -79,7 +79,7 @@ public class CityList {
     }
 
 
-    public String getCityString() {
-        return String.format("CityList has %d city.", this.countCities());
-    }
+//    public String getCityString() {
+//        return String.format("CityList has %d city.", this.countCities());
+//    }
 }
