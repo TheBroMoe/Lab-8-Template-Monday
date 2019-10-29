@@ -93,4 +93,14 @@ class CityListTest {
 
         assertEquals(1, cityList.countCities());
     }
+
+    @Test
+    void testGetCityString(){
+        CityList cityList = mockCityList();
+
+        String cityString = cityList.getCityString();
+
+        assertEquals("CityList has 1 city.", cityString);
+    }
+
 }
